@@ -9,6 +9,10 @@ const HelloButton = () => {
         // alert("Hello, World!");
     }
 
+    // explicando o codigo: o usuario ao pressionar o butão diapara a função handlePress 
+    // que por sua vez dispara um alerta com a mensagem "Hello, World!"
+    // o alerta é um componente do react native que exibe uma mensagem na tela do usuario
+
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
             <Button title="Say Hello" onPress={handlePress} />
